@@ -15,6 +15,7 @@ _For the whole library_
 _Or choose the parts you want_
 
     require 'set_theory/member_of'
+    require 'set_theory/union'
 
 Usage
 -----
