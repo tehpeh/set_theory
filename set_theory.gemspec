@@ -16,6 +16,9 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "gem-release", "~> 0.0.16"
   s.add_development_dependency "rspec", "~> 2.6.0"
+  s.add_development_dependency "guard", "~> 0.3.4"
+  s.add_development_dependency "guard-rspec", "~> 0.3.1"
+  s.add_development_dependency "rb-fsevent", "~> 0.4.0"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
