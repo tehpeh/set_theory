@@ -3,6 +3,8 @@ Set Theory
 
 Extends Object and Array with nice names for set operations.
 
+See the [Set](http://www.ruby-doc.org/stdlib/libdoc/set/rdoc/index.html) class for a library that doesn't pollute your Objects and Arrays.
+
 Installing
 ----------
 
@@ -17,6 +19,7 @@ _Or choose the parts you want_
     require 'set_theory/member_of'
     require 'set_theory/union'
     require 'set_theory/intersection'
+    require 'set_theory/difference'
 
 Usage
 -----
