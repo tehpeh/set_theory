@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Tim Preston"]
   s.email       = ["tim@tp.id.au"]
   s.homepage    = "http://github.com/tehpeh/set_theory"
-  s.summary     = %q{Extends Object with nice names for set operations.}
-  s.description = %q{Extends Object with nice names for set operations.}
+  s.summary     = %q{Extends Object and Array with nice names for set operations.}
+  s.description = %q{Extends Object and Array with nice names for set operations.\nSee the Set class (http://www.ruby-doc.org/stdlib/libdoc/set/rdoc/index.html) for a library that doesn't pollute your Objects and Arrays.}
 
   s.rubyforge_project = "set_theory"
 
