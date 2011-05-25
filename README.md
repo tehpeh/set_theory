@@ -20,6 +20,7 @@ _Or choose the parts you want_
     require 'set_theory/union'
     require 'set_theory/intersection'
     require 'set_theory/difference'
+    require 'set_theory/symmetric_difference'
 
 Usage
 -----

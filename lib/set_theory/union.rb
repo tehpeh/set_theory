@@ -1,5 +1,5 @@
 class Array
   def union(ary)
-    (self + ary).uniq
+    self | ary
   end
 end
