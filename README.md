@@ -1,7 +1,7 @@
 Set Theory
 ==========
 
-Extends Object with nice names for set operations.
+Extends Object and Array with nice names for set operations.
 
 Installing
 ----------
@@ -16,6 +16,7 @@ _Or choose the parts you want_
 
     require 'set_theory/member_of'
     require 'set_theory/union'
+    require 'set_theory/intersection'
 
 Usage
 -----
