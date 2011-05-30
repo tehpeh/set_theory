@@ -21,6 +21,7 @@ _Or choose the parts you want_
     require 'set_theory/intersection'
     require 'set_theory/difference'
     require 'set_theory/symmetric_difference'
+    require 'set_theory/power_set'
 
 Usage
 -----
@@ -47,12 +48,14 @@ TODO
 ----
 
 * Possibly deal with type errors on parameter to member_of?
-* Add aliases for other set operations.
-* Add methods for missing set operations.
 
 Rationale
 ---------
 Yes, I know about [this patch](https://github.com/rails/rails/pull/265), but I prefer `Object#member_of?` and `!Object#member_of?`.
+
+References
+----------
+[http://rosettacode.org/wiki/Power_Set#Ruby](http://rosettacode.org/wiki/Power_Set#Ruby)
 
 Copyright
 ---------
