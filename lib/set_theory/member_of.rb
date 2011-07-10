@@ -1,5 +1,9 @@
 class Object
   def member_of?(ary)
-    ary.include? self
+    if ary.respond_to? :include?
+      ary.include? self
+    else
+      self == ary
+    end
   end
 end

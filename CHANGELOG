@@ -1,3 +1,8 @@
+0.0.7 (2011-07-10)
+------------------
+
+  * Allow Object#member_of? to take any object as a parameter.
+
 0.0.6 (2011-05-30)
 ------------------
 

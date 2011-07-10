@@ -15,5 +15,9 @@ describe Object do
     it 'returns false when not in the set' do
       obj.member_of?(['B', 'C']).should_not be
     end
+
+    it 'does not fail when a non-array is passed' do
+      expect { 1.member_of?(1) }.to_not raise_error NoMethodError
+    end
   end
 end
