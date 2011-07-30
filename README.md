@@ -81,11 +81,6 @@ _Then run the specs_
 
     bundle exec rake
 
-TODO
-----
-
-* Possibly deal with type errors on parameter to member_of?
-
 Rationale
 ---------
 Yes, I know about [this patch](https://github.com/rails/rails/pull/265), but I prefer `Object#member_of?` and `!Object#member_of?`.
